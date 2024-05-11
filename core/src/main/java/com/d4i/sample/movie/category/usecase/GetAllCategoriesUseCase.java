@@ -6,6 +6,6 @@ import com.d4i.sample.movie.category.Category;
 
 public interface GetAllCategoriesUseCase {
 
-	public Collection<Category> execute();
+	Collection<Category> execute();
 	
 }

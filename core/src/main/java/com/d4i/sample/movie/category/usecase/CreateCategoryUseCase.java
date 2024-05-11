@@ -5,6 +5,6 @@ import com.d4i.sample.movie.category.exception.CategoryAlreadyExistException;
 
 public interface CreateCategoryUseCase {
 
-	public void execute(Category category) throws CategoryAlreadyExistException ;
+	void execute(Category category) throws CategoryAlreadyExistException ;
 
 }
