@@ -1,8 +1,7 @@
 package com.d4i.sample.movie.shared.exceptions;
 
-import org.springframework.http.HttpStatus;
-
 import lombok.Data;
+import org.springframework.http.HttpStatus;
 
 @Data
 public class BadRequestException extends NetflixException{

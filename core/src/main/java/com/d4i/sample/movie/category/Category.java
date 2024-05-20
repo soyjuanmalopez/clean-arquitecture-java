@@ -1,11 +1,8 @@
 package com.d4i.sample.movie.category;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotEmpty;
 import java.io.Serializable;
-
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotEmpty;
-
-
 
 import com.d4i.sample.movie.shared.SelfValidating;
 
